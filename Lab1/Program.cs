@@ -45,7 +45,7 @@ namespace Lab1
                 string UserChoice;
                 Console.WriteLine("Continue? (Y/N?)");
                 UserChoice = Console.ReadLine();
-                if (UserChoice == "N" || UserChoice == "No" || UserChoice == "n" || UserChoice == "no")
+                if (UserChoice == "N" || UserChoice == "No" || UserChoice == "n" || UserChoice == "no" || UserChoice == "NO")
                 {
                     Answer = false;
                     Console.WriteLine("See you real soon!");
