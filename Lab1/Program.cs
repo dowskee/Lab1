@@ -48,7 +48,7 @@ namespace Lab1
                 if (UserChoice == "N" || UserChoice == "No" || UserChoice == "n" || UserChoice == "no")
                 {
                     Answer = false;
-                    Console.WriteLine("Goodbye for now!");
+                    Console.WriteLine("See you real soon!");
                 }
             }
         }
