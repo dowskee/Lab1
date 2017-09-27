@@ -16,6 +16,7 @@ namespace Lab1
             while (Answer == true)
             {
                 //input
+
                 double length, width, height;
                 double Area, Perimeter, Volume;
 
@@ -28,17 +29,19 @@ namespace Lab1
                 height = double.Parse(Console.ReadLine());
 
                 //processing
+
                 Area = (length * width);
                 Perimeter = 2 * (length + width);
                 Volume = (length * width * height);
 
                 //output
+
                 Console.WriteLine("Area:" + Area);
                 Console.WriteLine("Perimeter" + Perimeter);
                 Console.WriteLine("Volume:" + Volume);
 
 
-
+                //give result or message
                 string UserChoice;
                 Console.WriteLine("Continue? (Y/N?)");
                 UserChoice = Console.ReadLine();
